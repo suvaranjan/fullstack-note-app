@@ -64,20 +64,13 @@ npm install
 
 ## Configuration
 
-Create a .env file in the server directory to configure environment variables:
+Create a .env file in the server directory to configure environment variables : like Below
 
-#### MongoDB connection URI
-
-MONGODB_URI=your-mongodb-uri
-
-#### Secret key for JWT (JSON Web Tokens)
-
-JWT_SECRET=your-secret-key
-
-#### Port for the server (e.g., 3001)
-
-PORT=3001
-Replace your-mongodb-uri and your-secret-key with your MongoDB connection URI and a secret key for JWT.
+```js
+PORT = 3000;
+MONGODB_STRING = your - mongodb - string;
+SECRET_KEY = your - secret - key;
+```
 
 ## Running the Application
 
