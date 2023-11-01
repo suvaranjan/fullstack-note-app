@@ -110,24 +110,25 @@ cd server
 npm install
 ```
 
-# Configuration
+## Configuration
 
 Create a .env file in the server directory to configure environment variables:
 
-# MongoDB connection URI
+#### MongoDB connection URI
 
 MONGODB_URI=your-mongodb-uri
 
-# Secret key for JWT (JSON Web Tokens)
+#### Secret key for JWT (JSON Web Tokens)
 
 JWT_SECRET=your-secret-key
 
-# Port for the server (e.g., 3001)
+#### Port for the server (e.g., 3001)
 
 PORT=3001
 Replace your-mongodb-uri and your-secret-key with your MongoDB connection URI and a secret key for JWT.
 
-Running the Application
+## Running the Application
+
 Start the server:
 
 ```js
@@ -144,7 +145,8 @@ npm run dev
 
 Your FullStack Note App should now be running. Access it in your web browser at http://localhost:3000.
 
-Usage
+## Usage
+
 Sign up for an account or log in if you already have one.
 Create, edit, view, and delete your notes.
 Manage your profile and save personal details.
@@ -152,5 +154,6 @@ Explore and enjoy your FullStack Note App!
 Contributing
 Feel free to contribute to this project. If you have ideas for new features or find any issues, please create a pull request or submit an issue.
 
-License
+## License
+
 This project is licensed under the MIT License - see the LICENSE file for details.
