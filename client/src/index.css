@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #EDE7F6;
+}
+
+h1 {
+    width: 100%;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-weight: 500;
+}
+
+.custom-css {
+    padding: 1rem;
+    max-width: 300px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.custom-btn {
+    width: 100%;
+}
+
+.text-size {
+    font-size: .8rem;
+    cursor: pointer;
+}
+
+.home-div {
+    height: 80vh;
+    margin-top: 8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.note-main-div {
+    background-color: #ffffff;
+}
+
+.grid {
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+
+}
+
+.grid-item {
+
+    border: 1px solid black;
+}
+
+.grid-1,
+.grid-2,
+.prev-next-btn {
+    grid-column: 1 / -1;
+}
+
+.title {
+    font-weight: 600;
+    color: #2e2e2e;
+}
+
+.grid-1 {
+    padding: 0;
+    border: none;
+}
+
+.grid-1 h1 {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+}
+
+.grid-2 {
+    width: 80%;
+    max-width: 700px;
+    height: 40px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding-left: 15px;
+}
+
+.grid-2 input {
+    width: 100%;
+    outline: none;
+    border: none;
+    padding-left: 10px;
+}
+
+.grid-note {
+    background-color: #EDE7F6;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.grid-note .tools {
+    background-color: #fff;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 0 auto;
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.2rem;
+}
+
+.prev-next-btn {
+    border: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    border: none;
+    background-color: #AA00FF;
+}
+
+.nav-link:hover {
+    color: #8200c3;
+}
+
+.btn:hover {
+    background-color: #8200c3;
+}
+
+@media(max-width:768px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+
+    .home-div {
+        margin-top: 3rem;
+    }
+
+}
+
+.link-text {
+    color: #AA00FF;
+}
+
+/* Custom danger button style */
+.custom-danger-btn {
+    background-color: #dc3545;
+    border-color: #dc3545;
+    color: #fff;
+}
+
+/* Custom hover effect for danger button */
+.custom-danger-btn:hover {
+    color: #fff;
+    background-color: #c82333;
+    border-color: #bd2130;
+}
+
+.two-btn-div {
+    /* border: 1px solid black; */
+    min-width: 200px;
+    max-width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.readmore {
+    /* color: #AA00FF; */
+    font-size: .8rem;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+}
