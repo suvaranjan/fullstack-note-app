@@ -17,16 +17,21 @@ The FullStack Note App is a web application with a React frontend and an Express
 
 ## Features
 
-- User Authentication:
-  - Sign up with email and password.
-  - Log in securely.
-  - Forgot password and reset password functionality.
-- Notes:
-  - Create, read, update, and delete notes.
-- Profile Management:
-  - Set and edit user profile details.
+### User Authentication:
+
+- Sign up with email and password.
+- Log in securely.
+- Forgot password and reset password functionality.
+
+### Notes:
+
+- Create, read, update, and delete notes.
+
+### Profile Management:
+
+- Set and edit user profile details.
 - Secure Storage:
-  - User data and notes are stored securely in a MongoDB database.
+- User data and notes are stored securely in a MongoDB database.
 
 ## Getting Started
 
