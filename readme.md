@@ -1,52 +1,3 @@
-NOTE APP
-├── client
-│ ├── public
-│ │ └── vite.svg
-│ ├── src
-│ ├── assets
-│ │ ├── api.jsx
-│ │ └── Validate.jsx
-│ ├── components
-│ │ ├── AllNotes.jsx
-│ │ ├── CreateNote.jsx
-│ │ ├── EmailSignin.jsx
-│ │ ├── Home.jsx
-│ │ ├── Navbar.jsx
-│ │ ├── Password.jsx
-│ │ ├── Profile.jsx
-│ │ ├── ProfileUpdate.jsx
-│ │ ├── Recovery.jsx
-│ │ ├── RequiredAuth.jsx
-│ │ ├── Reset.jsx
-│ │ ├── ShowNote.jsx
-│ │ ├── Signup.jsx
-│ │ └── UpdateNote.jsx
-│ ├── reducers
-│ │ └── userReducer.js
-│ ├── index.css
-│ ├── main.jsx
-│ ├── Routes.jsx
-│ └── store.jsx
-├── server
-| ├── config
-| │ └── dbConnect.js
-| ├── controllers
-| │ ├── authController.js
-| │ └── NoteController.js
-| ├── middlewares
-| │ └── authMiddleware.js
-| ├── models
-| │ ├── Note.js
-| │ ├── OTPmodel.js
-| │ └── User.js
-| ├── routes
-| │ └── notes.js
-| ├── utils
-| │ └── generateOTP.js
-| ├── .env
-| └── server.js
-└── readme.md
-
 # FullStack Note App
 
 The FullStack Note App is a web application with a React frontend and an Express.js backend. It allows users to create, manage, and organize their notes with a full authentication system, including signup, login, forgot password, and reset password functionality. The app uses MongoDB as the database for storing notes and user data.
@@ -60,6 +11,7 @@ The FullStack Note App is a web application with a React frontend and an Express
 - [Configuration](#configuration)
 - [Running the Application](#running-the-application)
 - [Usage](#usage)
+- [Folder Structure](#folder-structure)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -91,19 +43,19 @@ Before you begin, ensure you have met the following requirements:
 
 1. Clone the repository to your local machine:
 
-   ```bash
-   git clone https://github.com/your-username/fullstack-note-app.git
-   ```
+```bash
+git clone https://github.com/your-username/fullstack-note-app.git
+```
 
-Change into the project directory:
+2. Change into the project directory:
 
-```js
+```bash
 cd fullstack-note-app
 ```
 
-Install dependencies for both the client and server:
+3. Install dependencies for both the client and server:
 
-```js
+```bash
 cd client
 npm install
 cd server
@@ -153,6 +105,59 @@ Manage your profile and save personal details.
 Explore and enjoy your FullStack Note App!
 Contributing
 Feel free to contribute to this project. If you have ideas for new features or find any issues, please create a pull request or submit an issue.
+
+## Folder Structure
+
+```js
+NOTE APP
+├── client
+│ ├── public
+│ │ └── vite.svg
+│ ├── src
+│ ├── assets
+│ │ ├── api.jsx
+│ │ └── Validate.jsx
+│ ├── components
+│ │ ├── AllNotes.jsx
+│ │ ├── CreateNote.jsx
+│ │ ├── EmailSignin.jsx
+│ │ ├── Home.jsx
+│ │ ├── Navbar.jsx
+│ │ ├── Password.jsx
+│ │ ├── Profile.jsx
+│ │ ├── ProfileUpdate.jsx
+│ │ ├── Recovery.jsx
+│ │ ├── RequiredAuth.jsx
+│ │ ├── Reset.jsx
+│ │ ├── ShowNote.jsx
+│ │ ├── Signup.jsx
+│ │ └── UpdateNote.jsx
+│ ├── reducers
+│ │ └── userReducer.js
+│ ├── index.css
+│ ├── main.jsx
+│ ├── Routes.jsx
+│ └── store.jsx
+├── server
+| ├── config
+| │ └── dbConnect.js
+| ├── controllers
+| │ ├── authController.js
+| │ └── NoteController.js
+| ├── middlewares
+| │ └── authMiddleware.js
+| ├── models
+| │ ├── Note.js
+| │ ├── OTPmodel.js
+| │ └── User.js
+| ├── routes
+| │ └── notes.js
+| ├── utils
+| │ └── generateOTP.js
+| ├── .env
+| └── server.js
+└── readme.md
+```
 
 ## License
 
